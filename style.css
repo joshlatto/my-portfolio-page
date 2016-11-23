@@ -1,0 +1,28 @@
+#main-panel {
+  margin: 45px;
+  padding: 25px;
+}
+
+#nav-bar * {
+  text-transform: uppercase;
+}
+
+.section-header {
+  text-transform: uppercase;
+}
+
+.img {
+  margin: 25px;
+}
+
+
+/* I was having a problem with the header covering
+/* the top of each section when you used the nav bar links.
+/* This CSS solves that problem and comes from here: https://pixelflips.com/blog/anchor-links-with-a-fixed-header */
+.anchor{
+  display: block;
+  height: 60px; /*same height as header*/
+  margin-top: -60px; /*same height as header*/
+  visibility: hidden;
+}
+
